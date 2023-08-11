@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.hdqwalls.com/wallpapers/abstract-vector-graphics-iy.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    padding-right: 40px;
+    width: 250px;
+}
+
+#display {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #dcdcdc;
+    color: #4CAF50;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #45a045;
+}
